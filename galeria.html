@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <style>
+        body{
+            margin: 0%;
+        }
+        .cont1{
+            background-image: url(imagenes/5-img.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 48%;
+            width: 100%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .cont2{
+            height: 500px;
+            padding: 10px;
+            background: linear-gradient(to bottom, #3895cb, #9bcbe7);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; /* Centra el contenido verticalmente */
+            color: white;
+        }
+        .cont3{
+            color: white;
+            background-color: #1f3e48;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        div div img{
+            border-radius: 10%;
+        }
+    </style>
+</head>
+<body>
+    <header class="cont1">
+         <h1>Landing Page de Deportes</h1>
+        <h3>¡Encuentra todo lo que necesita para meantenerte activo!</h3>
+    </header>
+    <div class="cont2">
+        <div>
+            <h2>Galeria de fotos</h2>
+        </div>
+        <div>
+            <img src="imagenes/1-img.jfif" alt="" height="200px" width="300px">
+            <img src="imagenes/2-img.jfif" alt="" height="200px" width="300px">
+        </div>
+        <div>
+            <img src="imagenes/3-img.jfif" alt="" height="200px" width="300px">
+            <img src="imagenes/4-img.jfif" alt="" height="200px" width="300px">
+        </div>
+        <div><a href="index.html"><h2>Regresar</h2></a></div>
+    </div>
+    <footer class="cont3">
+        <h5>© 2023 Landing Page Deportes</h5>
+    </footer>
+</body>
+</html>
